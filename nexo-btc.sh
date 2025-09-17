@@ -21,4 +21,4 @@ set output to "$output"
 display notification  "$output" with title "Output" subtitle "Result from
  Python Script" sound name "Glass"
 EOF
-osascript -e 'tell app "System Events" to display dialog "'$output'"'
+osascript -e 'tell app "System Events" to display dialog '$output

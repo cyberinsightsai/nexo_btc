@@ -6,7 +6,7 @@ This script monitors the Nexo/BTC price ratio and identifies favorable moments
 to exchange Nexo for Bitcoin based on local peaks in the ratio.
 It also provides forecasts for future price ratios using Prophet.
 """
-
+from art import *
 import ccxt
 import pandas as pd
 import numpy as np
@@ -22,7 +22,7 @@ from prophet import Prophet
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.ERROR,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("nexo_btc_exchange.log"),
@@ -323,7 +323,7 @@ class NexoBTCExchangeMonitor:
             model.fit(prophet_df)
             
             # Create future dataframe
-            future = model.make_future_dataframe(periods=days_ahead * 24, freq='H')
+            future = model.make_future_dataframe(periods=days_ahead * 24, freq='h')
             
             # Make prediction
             forecast = model.predict(future)
@@ -452,8 +452,10 @@ class NexoBTCExchangeMonitor:
                     logger.info("Single-run mode, exiting")
                     if opportunity:
                         print("GOOD OPPORTUNITY - Exchange NEXO for BTC now!")
+                        print(text2art("BUY!"))
                     else:
                         print("NO OPPORTUNITY - Wait for better conditions")
+                        print(text2art("STOP!"))
                     break
                 
                 # Only reached if run_forever=True
@@ -530,7 +532,7 @@ def parse_arguments():
 if __name__ == "__main__":
     # Parse arguments
     args = parse_arguments()
-    
+    print(text2art("BTC"))
     try:
         # Create monitor
         monitor = NexoBTCExchangeMonitor(

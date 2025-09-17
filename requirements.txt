@@ -6,3 +6,5 @@ matplotlib
 logging
 typing 
 prophet  
+art
+plotly

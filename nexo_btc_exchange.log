@@ -4083,3 +4083,115 @@
 2025-09-17 11:27:54,549 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
 2025-09-17 11:27:54,607 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_112754.png
 2025-09-17 11:27:54,607 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 11:44:01,955 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 11:44:01,961 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 11:44:01,961 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 11:44:01,961 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 11:44:01,961 - NexoBTCExchange - INFO - Last recorded data: 2025-09-10 09:00:00, 7 days ago
+2025-09-17 11:44:01,961 - NexoBTCExchange - INFO - Fetching 8 days of missing historical data
+2025-09-17 11:44:04,963 - NexoBTCExchange - INFO - Fetched historical data: 192 entries (last 8 days)
+2025-09-17 11:44:04,964 - NexoBTCExchange - INFO - Adding 168 new data points from 2025-09-10 to 2025-09-17
+2025-09-17 11:44:05,234 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 11:44:05,234 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 11:44:05,366 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/qsio2m45.json
+2025-09-17 11:44:05,389 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/n868iiu9.json
+2025-09-17 11:44:05,389 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:44:05,389 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:44:05,389 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=9811', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/qsio2m45.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/n868iiu9.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/prophet_modelcg1zynu2/prophet_model-20250917114405.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:44:05,389 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:44:06,318 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:44:06,410 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:44:06,410 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 11:44:06,411 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001106 (Range: 0.00001094 to 0.00001118)
+2025-09-17 11:44:06,411 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001107 (Range: 0.00001094 to 0.00001119)
+2025-09-17 11:44:06,411 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001097 to 0.00001124)
+2025-09-17 11:44:06,411 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001111 (Range: 0.00001097 to 0.00001125)
+2025-09-17 11:44:06,411 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 11:44:06,856 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/0tza01qi.json
+2025-09-17 11:44:06,877 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/w8dad5lc.json
+2025-09-17 11:44:06,878 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:44:06,878 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:44:06,878 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26511', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/0tza01qi.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/w8dad5lc.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp0rvboas8/prophet_modelxz_0uh1n/prophet_model-20250917114406.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:44:06,878 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:44:07,177 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:44:07,270 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:44:07,530 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_114406.png
+2025-09-17 11:44:07,531 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 11:57:12,544 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/e2wb85s6.json
+2025-09-17 11:57:12,565 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/38njyehl.json
+2025-09-17 11:57:12,566 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:57:12,566 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:57:12,566 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=43264', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/e2wb85s6.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/38njyehl.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/prophet_modelrm8qc_gy/prophet_model-20250917115712.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:57:12,566 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:57:12,857 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:57:13,041 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/xl2fcnr6.json
+2025-09-17 11:57:13,060 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/e2h6r4ba.json
+2025-09-17 11:57:13,060 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:57:13,060 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:57:13,061 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=88058', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/xl2fcnr6.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/e2h6r4ba.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpcu5d7c_h/prophet_model2__jtsz1/prophet_model-20250917115713.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:57:13,061 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:57:13,350 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:57:13,533 - NexoBTCExchange - ERROR - Error in monitoring loop: Invalid art name.
+2025-09-17 11:57:13,533 - NexoBTCExchange - ERROR - Error: Invalid art name.
+2025-09-17 11:59:57,439 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/1qlsknai.json
+2025-09-17 11:59:57,458 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/6zomvo04.json
+2025-09-17 11:59:57,458 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:59:57,458 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:59:57,458 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=71688', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/1qlsknai.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/6zomvo04.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/prophet_modelyz_hkwrj/prophet_model-20250917115957.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:59:57,458 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:59:57,759 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:59:57,938 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/n_vvsq1q.json
+2025-09-17 11:59:57,957 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/kgbk4nck.json
+2025-09-17 11:59:57,957 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:59:57,957 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:59:57,957 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=92053', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/n_vvsq1q.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/kgbk4nck.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp6ba_fufw/prophet_modelu8183m0a/prophet_model-20250917115957.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:59:57,957 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:59:58,257 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:59:58,424 - NexoBTCExchange - ERROR - Error in monitoring loop: Invalid art name.
+2025-09-17 11:59:58,424 - NexoBTCExchange - ERROR - Error: Invalid art name.
+2025-09-17 12:00:19,766 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/3awpt97h.json
+2025-09-17 12:00:19,785 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/hg0yaweo.json
+2025-09-17 12:00:19,785 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:00:19,785 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:00:19,785 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=93432', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/3awpt97h.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/hg0yaweo.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/prophet_modelcnd36xvf/prophet_model-20250917120019.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:00:19,785 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:00:20,111 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 12:00:20,290 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/oi5pmqhx.json
+2025-09-17 12:00:20,309 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/t5szh5pa.json
+2025-09-17 12:00:20,310 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:00:20,310 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:00:20,310 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=99559', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/oi5pmqhx.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/t5szh5pa.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpvdofpe1_/prophet_model9gp7pmgu/prophet_model-20250917120020.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:00:20,310 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:00:20,641 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 12:00:20,808 - NexoBTCExchange - ERROR - Error in monitoring loop: Invalid art name.
+2025-09-17 12:00:20,808 - NexoBTCExchange - ERROR - Error: Invalid art name.
+2025-09-17 12:03:17,032 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/hfs9832a.json
+2025-09-17 12:03:17,050 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/yc3ez3a8.json
+2025-09-17 12:03:17,051 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:03:17,051 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:03:17,051 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=89764', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/hfs9832a.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/yc3ez3a8.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/prophet_modelt19txlw5/prophet_model-20250917120317.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:03:17,051 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:03:17,330 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 12:03:17,506 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/89xkt7vw.json
+2025-09-17 12:03:17,525 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/pqnafnb2.json
+2025-09-17 12:03:17,525 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:03:17,525 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:03:17,525 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=32722', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/89xkt7vw.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/pqnafnb2.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp08hh2va7/prophet_modelsc_kynzo/prophet_model-20250917120317.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:03:17,525 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:03:17,807 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 12:03:17,974 - NexoBTCExchange - ERROR - Error in monitoring loop: Invalid art name.
+2025-09-17 12:03:17,974 - NexoBTCExchange - ERROR - Error: Invalid art name.
+2025-09-17 12:06:59,853 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/hhwr0lcx.json
+2025-09-17 12:06:59,872 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/ij36xph8.json
+2025-09-17 12:06:59,872 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:06:59,872 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:06:59,872 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=20131', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/hhwr0lcx.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/ij36xph8.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/prophet_model2fq6rmzp/prophet_model-20250917120659.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:06:59,872 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:07:00,149 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 12:07:00,324 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/2o4ij8ui.json
+2025-09-17 12:07:00,343 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/zw51u143.json
+2025-09-17 12:07:00,343 - cmdstanpy - DEBUG - idx 0
+2025-09-17 12:07:00,343 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 12:07:00,343 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo_btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=7357', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/2o4ij8ui.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/zw51u143.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmppnmuhh4j/prophet_modeloa73l3oj/prophet_model-20250917120700.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 12:07:00,343 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 12:07:00,620 - cmdstanpy - INFO - Chain [1] done processing
