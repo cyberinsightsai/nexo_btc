@@ -3693,3 +3693,393 @@
 2025-09-10 11:30:53,487 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
 2025-09-10 11:30:53,640 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250910_113052.png
 2025-09-10 11:30:53,640 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-15 04:38:14,864 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-15 04:38:14,873 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-15 04:38:14,873 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-15 04:38:14,873 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-15 04:38:14,874 - NexoBTCExchange - INFO - Last recorded data: 2025-09-10 09:00:00, 4 days ago
+2025-09-15 04:38:14,874 - NexoBTCExchange - INFO - Fetching 5 days of missing historical data
+2025-09-15 04:38:18,486 - NexoBTCExchange - INFO - Fetched historical data: 120 entries (last 5 days)
+2025-09-15 04:38:18,487 - NexoBTCExchange - INFO - Adding 113 new data points from 2025-09-10 to 2025-09-15
+2025-09-15 04:38:18,863 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-15 04:38:18,863 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-17 to 2025-09-15
+2025-09-15 04:38:18,905 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/j1gdkoeo.json
+2025-09-15 04:38:18,917 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/ykd026xx.json
+2025-09-15 04:38:18,917 - cmdstanpy - DEBUG - idx 0
+2025-09-15 04:38:18,917 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-15 04:38:18,918 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=33420', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/j1gdkoeo.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/ykd026xx.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/prophet_modely6uioj98/prophet_model-20250915043818.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-15 04:38:18,918 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-15 04:38:19,224 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-15 04:38:19,396 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-15 04:38:19,396 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-15 04:38:19,399 - NexoBTCExchange - INFO - Date: 2025-09-15, Predicted Ratio: 0.00001118 (Range: 0.00001106 to 0.00001131)
+2025-09-15 04:38:19,400 - NexoBTCExchange - INFO - Date: 2025-09-16, Predicted Ratio: 0.00001116 (Range: 0.00001103 to 0.00001129)
+2025-09-15 04:38:19,400 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001113 (Range: 0.00001098 to 0.00001126)
+2025-09-15 04:38:19,400 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001114 (Range: 0.00001099 to 0.00001128)
+2025-09-15 04:38:19,400 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-15 04:38:19,527 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/qvs0x3ib.json
+2025-09-15 04:38:19,539 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/h_osrrto.json
+2025-09-15 04:38:19,539 - cmdstanpy - DEBUG - idx 0
+2025-09-15 04:38:19,539 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-15 04:38:19,539 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=68133', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/qvs0x3ib.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/h_osrrto.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmp3gsmhmvz/prophet_modelzpksv1yv/prophet_model-20250915043819.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-15 04:38:19,539 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-15 04:38:19,812 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-15 04:38:19,951 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-15 04:38:20,095 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250915_043819.png
+2025-09-15 04:38:20,095 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-16 11:06:28,904 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-16 11:06:28,912 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-16 11:06:28,912 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-16 11:06:28,912 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-16 11:06:28,914 - NexoBTCExchange - INFO - Last recorded data: 2025-09-15 02:00:00, 1 days ago
+2025-09-16 11:06:28,914 - NexoBTCExchange - INFO - Fetching 2 days of missing historical data
+2025-09-16 11:06:32,216 - NexoBTCExchange - INFO - Fetched historical data: 48 entries (last 2 days)
+2025-09-16 11:06:32,218 - NexoBTCExchange - INFO - Adding 31 new data points from 2025-09-15 to 2025-09-16
+2025-09-16 11:06:32,615 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-16 11:06:32,615 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-18 to 2025-09-16
+2025-09-16 11:06:32,655 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/0mxdovhb.json
+2025-09-16 11:06:32,668 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/hfnfqvdo.json
+2025-09-16 11:06:32,669 - cmdstanpy - DEBUG - idx 0
+2025-09-16 11:06:32,669 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-16 11:06:32,669 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=8449', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/0mxdovhb.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/hfnfqvdo.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/prophet_model4_cr3tpr/prophet_model-20250916110632.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-16 11:06:32,669 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-16 11:06:32,940 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-16 11:06:33,116 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-16 11:06:33,116 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-16 11:06:33,119 - NexoBTCExchange - INFO - Date: 2025-09-16, Predicted Ratio: 0.00001113 (Range: 0.00001100 to 0.00001125)
+2025-09-16 11:06:33,119 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001109 (Range: 0.00001096 to 0.00001121)
+2025-09-16 11:06:33,119 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001110 (Range: 0.00001097 to 0.00001124)
+2025-09-16 11:06:33,119 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001112 (Range: 0.00001098 to 0.00001126)
+2025-09-16 11:06:33,119 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-16 11:06:33,320 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/j2do6jre.json
+2025-09-16 11:06:33,332 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/t2jqt5h6.json
+2025-09-16 11:06:33,332 - cmdstanpy - DEBUG - idx 0
+2025-09-16 11:06:33,332 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-16 11:06:33,332 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=90290', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/j2do6jre.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/t2jqt5h6.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpe_m29_d9/prophet_modellamjrg6n/prophet_model-20250916110633.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-16 11:06:33,332 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-16 11:06:33,581 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-16 11:06:33,726 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-16 11:06:33,863 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250916_110633.png
+2025-09-16 11:06:33,863 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 09:37:27,526 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 09:37:27,534 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 09:37:27,534 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 09:37:27,534 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 09:37:27,536 - NexoBTCExchange - INFO - Last recorded data: 2025-09-16 09:00:00, 1 days ago
+2025-09-17 09:37:27,536 - NexoBTCExchange - INFO - Fetching 2 days of missing historical data
+2025-09-17 09:37:32,014 - NexoBTCExchange - INFO - Fetched historical data: 48 entries (last 2 days)
+2025-09-17 09:37:32,016 - NexoBTCExchange - INFO - Adding 22 new data points from 2025-09-16 to 2025-09-17
+2025-09-17 09:37:32,417 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 09:37:32,417 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 09:37:32,458 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/ztk66icr.json
+2025-09-17 09:37:32,470 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/049tko66.json
+2025-09-17 09:37:32,471 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:37:32,471 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:37:32,471 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=6306', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/ztk66icr.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/049tko66.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/prophet_modelnkb4to76/prophet_model-20250917093732.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:37:32,471 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:37:32,864 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:37:33,069 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:37:33,069 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 09:37:33,072 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 09:37:33,072 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001107 (Range: 0.00001094 to 0.00001119)
+2025-09-17 09:37:33,072 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001097 to 0.00001124)
+2025-09-17 09:37:33,072 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001112 (Range: 0.00001097 to 0.00001126)
+2025-09-17 09:37:33,072 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 09:37:33,227 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/dfqanr9h.json
+2025-09-17 09:37:33,239 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/ws2lu6m3.json
+2025-09-17 09:37:33,240 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:37:33,240 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:37:33,240 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/streamlit-map-test/.venv/lib/python3.9/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=23519', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/dfqanr9h.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/ws2lu6m3.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gn/T/tmpx3qdvs7_/prophet_model4q3m5dgb/prophet_model-20250917093733.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:37:33,240 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:37:33,610 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:37:33,754 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:37:33,891 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_093733.png
+2025-09-17 09:37:33,891 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 09:49:54,424 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 09:49:54,432 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 09:49:54,432 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 09:49:54,432 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 09:49:54,432 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 07:00:00, 0 days ago
+2025-09-17 09:49:57,328 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2890, BTC: $117216.07
+2025-09-17 09:49:57,601 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 09:49:57,601 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 09:49:57,782 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/we22cbag.json
+2025-09-17 09:49:57,806 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/itciljar.json
+2025-09-17 09:49:57,807 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:49:57,807 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:49:57,807 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=42535', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/we22cbag.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/itciljar.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/prophet_modelj7ggwm0m/prophet_model-20250917094957.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:49:57,807 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:49:58,570 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:49:58,658 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:49:58,659 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 09:49:58,659 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 09:49:58,659 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001107 (Range: 0.00001094 to 0.00001120)
+2025-09-17 09:49:58,659 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001098 to 0.00001124)
+2025-09-17 09:49:58,660 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001111 (Range: 0.00001097 to 0.00001125)
+2025-09-17 09:49:58,660 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 09:49:59,063 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/nexb1jaq.json
+2025-09-17 09:49:59,085 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/q1ow0hif.json
+2025-09-17 09:49:59,086 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:49:59,086 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:49:59,086 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=19676', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/nexb1jaq.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/q1ow0hif.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpq8bvve_u/prophet_model5bo8s8fj/prophet_model-20250917094959.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:49:59,086 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:49:59,437 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:49:59,525 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:49:59,787 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_094958.png
+2025-09-17 09:49:59,787 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 09:59:24,673 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 09:59:24,678 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 09:59:24,678 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 09:59:24,678 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 09:59:24,678 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 09:49:57, 0 days ago
+2025-09-17 09:59:28,486 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2870, BTC: $117160.29
+2025-09-17 09:59:28,754 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 09:59:28,754 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 09:59:28,859 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/ajnv7cod.json
+2025-09-17 09:59:28,883 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/q2zrt3o3.json
+2025-09-17 09:59:28,883 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:59:28,883 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:59:28,883 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=76799', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/ajnv7cod.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/q2zrt3o3.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/prophet_modelq7vara22/prophet_model-20250917095928.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:59:28,884 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:59:29,210 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:59:29,298 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:59:29,298 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 09:59:29,299 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 09:59:29,299 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001107 (Range: 0.00001094 to 0.00001119)
+2025-09-17 09:59:29,299 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001097 to 0.00001123)
+2025-09-17 09:59:29,299 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001111 (Range: 0.00001096 to 0.00001125)
+2025-09-17 09:59:29,299 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 09:59:29,392 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/jd5f3fgt.json
+2025-09-17 09:59:29,411 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/r5rptg81.json
+2025-09-17 09:59:29,411 - cmdstanpy - DEBUG - idx 0
+2025-09-17 09:59:29,411 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 09:59:29,411 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=63840', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/jd5f3fgt.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/r5rptg81.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtfyp9j5/prophet_modelg3w1wmpt/prophet_model-20250917095929.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 09:59:29,411 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 09:59:29,748 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 09:59:29,838 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 09:59:29,911 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_095929.png
+2025-09-17 09:59:29,911 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 10:00:52,648 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 10:00:52,651 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 10:00:52,651 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 10:00:52,651 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 10:00:52,651 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 09:59:28, 0 days ago
+2025-09-17 10:00:55,677 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2880, BTC: $117174.97
+2025-09-17 10:00:55,947 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 10:00:55,947 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 10:00:55,965 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/pk2w7o3y.json
+2025-09-17 10:00:55,983 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/fwrlh5zx.json
+2025-09-17 10:00:55,984 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:00:55,984 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:00:55,984 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=59527', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/pk2w7o3y.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/fwrlh5zx.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/prophet_modelcf7fd_ok/prophet_model-20250917100055.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:00:55,984 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:00:56,280 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:00:56,366 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:00:56,366 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 10:00:56,367 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 10:00:56,367 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001094 to 0.00001119)
+2025-09-17 10:00:56,367 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001097 to 0.00001123)
+2025-09-17 10:00:56,367 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001111 (Range: 0.00001097 to 0.00001125)
+2025-09-17 10:00:56,367 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 10:00:56,463 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/z6xkip43.json
+2025-09-17 10:00:56,482 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/5roe4wvu.json
+2025-09-17 10:00:56,482 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:00:56,482 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:00:56,482 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=28238', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/z6xkip43.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/5roe4wvu.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpbtqdwdiw/prophet_model1rlg4j4b/prophet_model-20250917100056.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:00:56,482 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:00:56,777 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:00:56,863 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:00:56,920 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_100056.png
+2025-09-17 10:00:56,921 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 10:01:29,859 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 10:01:29,863 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 10:01:29,863 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 10:01:29,863 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 10:01:29,863 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 10:00:55, 0 days ago
+2025-09-17 10:01:32,617 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2880, BTC: $117174.97
+2025-09-17 10:01:32,879 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 10:01:32,880 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 10:01:32,896 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/h7d57l8w.json
+2025-09-17 10:01:32,915 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/cbzs8sgi.json
+2025-09-17 10:01:32,915 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:01:32,915 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:01:32,915 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=22681', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/h7d57l8w.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/cbzs8sgi.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/prophet_model7gfm9ucs/prophet_model-20250917100132.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:01:32,915 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:01:33,226 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:01:33,314 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:01:33,314 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 10:01:33,315 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 10:01:33,315 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001094 to 0.00001119)
+2025-09-17 10:01:33,315 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001123)
+2025-09-17 10:01:33,315 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001125)
+2025-09-17 10:01:33,315 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 10:01:33,414 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/7a8mcn1o.json
+2025-09-17 10:01:33,433 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/9nmiflop.json
+2025-09-17 10:01:33,433 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:01:33,433 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:01:33,433 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=21348', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/7a8mcn1o.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/9nmiflop.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpp1qslvdc/prophet_modelx1bulmzc/prophet_model-20250917100133.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:01:33,433 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:01:33,742 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:01:33,828 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:01:33,889 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_100133.png
+2025-09-17 10:01:33,889 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 10:01:42,062 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 10:01:42,066 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 10:01:42,066 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 10:01:42,066 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 10:01:42,066 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 10:01:32, 0 days ago
+2025-09-17 10:01:44,889 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2880, BTC: $117152.39
+2025-09-17 10:01:45,150 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 10:01:45,150 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 10:01:45,166 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/_3gtud46.json
+2025-09-17 10:01:45,185 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/ssr2330v.json
+2025-09-17 10:01:45,185 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:01:45,185 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:01:45,185 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=85347', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/_3gtud46.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/ssr2330v.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/prophet_modelsu2qbwal/prophet_model-20250917100145.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:01:45,185 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:01:45,433 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:01:45,520 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:01:45,520 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 10:01:45,521 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 10:01:45,521 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001094 to 0.00001119)
+2025-09-17 10:01:45,521 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001123)
+2025-09-17 10:01:45,521 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001124)
+2025-09-17 10:01:45,521 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 10:01:45,614 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/s0kbomij.json
+2025-09-17 10:01:45,633 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/qj_p1g4w.json
+2025-09-17 10:01:45,633 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:01:45,633 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:01:45,633 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=48552', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/s0kbomij.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/qj_p1g4w.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp59lw8yw2/prophet_model15rzgvmg/prophet_model-20250917100145.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:01:45,633 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:01:45,876 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:01:45,962 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:01:46,022 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_100145.png
+2025-09-17 10:01:46,022 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 10:47:32,910 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 10:47:32,919 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 10:47:32,919 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 10:47:32,919 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 10:47:32,920 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 10:01:44, 0 days ago
+2025-09-17 10:47:35,533 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2840, BTC: $116767.37
+2025-09-17 10:47:35,800 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 10:47:35,800 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 10:47:35,837 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/htdhv3ej.json
+2025-09-17 10:47:35,855 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/ld4bp8gi.json
+2025-09-17 10:47:35,857 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:47:35,857 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:47:35,857 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=81583', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/htdhv3ej.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/ld4bp8gi.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/prophet_modelw9bjhbd8/prophet_model-20250917104735.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:47:35,857 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:47:36,139 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:47:36,230 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:47:36,231 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 10:47:36,233 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 10:47:36,233 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001119)
+2025-09-17 10:47:36,233 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001123)
+2025-09-17 10:47:36,233 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001124)
+2025-09-17 10:47:36,233 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 10:47:36,352 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/1bztxnyl.json
+2025-09-17 10:47:36,371 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/an1o3vsn.json
+2025-09-17 10:47:36,371 - cmdstanpy - DEBUG - idx 0
+2025-09-17 10:47:36,371 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 10:47:36,371 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=48281', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/1bztxnyl.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/an1o3vsn.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpuc93kcci/prophet_modelaw2kmkxt/prophet_model-20250917104736.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 10:47:36,371 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 10:47:36,624 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 10:47:36,711 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 10:47:36,777 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_104736.png
+2025-09-17 10:47:36,777 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 11:25:32,488 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 11:25:32,495 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 11:25:32,495 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 11:25:32,495 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 11:25:32,496 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 10:47:35, 0 days ago
+2025-09-17 11:25:35,634 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2920, BTC: $116758.70
+2025-09-17 11:25:35,909 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 11:25:35,909 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 11:25:35,947 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/sc8s83d1.json
+2025-09-17 11:25:35,966 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/rdl6huu0.json
+2025-09-17 11:25:35,967 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:25:35,967 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:25:35,967 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=85003', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/sc8s83d1.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/rdl6huu0.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/prophet_modelyk_6fiuj/prophet_model-20250917112535.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:25:35,967 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:25:36,248 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:25:36,339 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:25:36,339 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 11:25:36,341 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:25:36,341 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:25:36,341 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001109 (Range: 0.00001096 to 0.00001123)
+2025-09-17 11:25:36,341 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001124)
+2025-09-17 11:25:36,341 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 11:25:36,447 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/uopukm30.json
+2025-09-17 11:25:36,466 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/b_w8z5ub.json
+2025-09-17 11:25:36,466 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:25:36,466 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:25:36,466 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=16852', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/uopukm30.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/b_w8z5ub.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpho3wm5km/prophet_modelvpip0f03/prophet_model-20250917112536.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:25:36,466 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:25:36,736 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:25:36,825 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:25:36,889 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_112536.png
+2025-09-17 11:25:36,889 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 11:27:01,694 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 11:27:01,697 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 11:27:01,697 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 11:27:01,697 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 11:27:01,698 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 11:25:35, 0 days ago
+2025-09-17 11:27:04,724 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2920, BTC: $116750.48
+2025-09-17 11:27:04,986 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 11:27:04,987 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 11:27:05,003 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/jyqwo015.json
+2025-09-17 11:27:05,022 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/agl9qc5v.json
+2025-09-17 11:27:05,022 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:27:05,022 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:27:05,022 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=72148', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/jyqwo015.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/agl9qc5v.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/prophet_model8uut58ml/prophet_model-20250917112705.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:27:05,022 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:27:05,332 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:27:05,419 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001109 (Range: 0.00001096 to 0.00001122)
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001110 (Range: 0.00001096 to 0.00001124)
+2025-09-17 11:27:05,420 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 11:27:05,521 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/4g2s0fbj.json
+2025-09-17 11:27:05,540 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/hh8fc90q.json
+2025-09-17 11:27:05,540 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:27:05,540 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:27:05,540 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26275', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/4g2s0fbj.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/hh8fc90q.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmp792ha5uh/prophet_modelk9eadrjp/prophet_model-20250917112705.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:27:05,540 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:27:05,850 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:27:05,940 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:27:05,997 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_112705.png
+2025-09-17 11:27:05,997 - NexoBTCExchange - INFO - Single-run mode, exiting
+2025-09-17 11:27:50,157 - NexoBTCExchange - INFO - Successfully initialized binance exchange
+2025-09-17 11:27:50,160 - NexoBTCExchange - INFO - Loaded historical data from ./data/nexo_btc_history_1h.csv
+2025-09-17 11:27:50,161 - NexoBTCExchange - INFO - Running in single-run mode
+2025-09-17 11:27:50,161 - NexoBTCExchange - INFO - Starting monitoring iteration 1
+2025-09-17 11:27:50,161 - NexoBTCExchange - INFO - Last recorded data: 2025-09-17 11:27:04, 0 days ago
+2025-09-17 11:27:53,363 - NexoBTCExchange - INFO - Current prices - NEXO: $1.2890, BTC: $116746.69
+2025-09-17 11:27:53,626 - NexoBTCExchange - INFO - Saved historical data to ./data/nexo_btc_history_1h.csv
+2025-09-17 11:27:53,626 - NexoBTCExchange - INFO - Data updated successfully. Range: 2025-06-19 to 2025-09-17
+2025-09-17 11:27:53,643 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/hnqmcxys.json
+2025-09-17 11:27:53,662 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/457ekphp.json
+2025-09-17 11:27:53,662 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:27:53,662 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:27:53,662 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=34817', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/hnqmcxys.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/457ekphp.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/prophet_model7n88k2pt/prophet_model-20250917112753.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:27:53,662 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:27:53,960 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:27:54,049 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:27:54,049 - NexoBTCExchange - INFO - --- 3-Day Forecast ---
+2025-09-17 11:27:54,050 - NexoBTCExchange - INFO - Date: 2025-09-17, Predicted Ratio: 0.00001105 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:27:54,050 - NexoBTCExchange - INFO - Date: 2025-09-18, Predicted Ratio: 0.00001106 (Range: 0.00001093 to 0.00001118)
+2025-09-17 11:27:54,050 - NexoBTCExchange - INFO - Date: 2025-09-19, Predicted Ratio: 0.00001109 (Range: 0.00001096 to 0.00001122)
+2025-09-17 11:27:54,050 - NexoBTCExchange - INFO - Date: 2025-09-20, Predicted Ratio: 0.00001109 (Range: 0.00001095 to 0.00001124)
+2025-09-17 11:27:54,050 - NexoBTCExchange - INFO - No favorable exchange opportunity detected at this time
+2025-09-17 11:27:54,149 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/t311s1bp.json
+2025-09-17 11:27:54,168 - cmdstanpy - DEBUG - input tempfile: /var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/kjo220j8.json
+2025-09-17 11:27:54,168 - cmdstanpy - DEBUG - idx 0
+2025-09-17 11:27:54,168 - cmdstanpy - DEBUG - running CmdStan, num_threads: None
+2025-09-17 11:27:54,168 - cmdstanpy - DEBUG - CmdStan args: ['/Users/andres/code/crypto/nexo-btc/.venv/lib/python3.13/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=93365', 'data', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/t311s1bp.json', 'init=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/kjo220j8.json', 'output', 'file=/var/folders/k0/7cc4by6j4rj0tsjcfknnt80c0000gp/T/tmpm08uo4e_/prophet_model86tfokct/prophet_model-20250917112754.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-09-17 11:27:54,168 - cmdstanpy - INFO - Chain [1] start processing
+2025-09-17 11:27:54,466 - cmdstanpy - INFO - Chain [1] done processing
+2025-09-17 11:27:54,549 - NexoBTCExchange - INFO - Generated 72 future predictions for 3 days ahead
+2025-09-17 11:27:54,607 - NexoBTCExchange - INFO - Saved plot to ./data/nexo_btc_forecast_20250917_112754.png
+2025-09-17 11:27:54,607 - NexoBTCExchange - INFO - Single-run mode, exiting
